@@ -21,8 +21,8 @@ return (
                     <h1 className='q-title'>Select your prefered theme color</h1>
                 </div>
                 <div className='theme-btn-container'>
-                    <ThemeOption theme="dark" src='/public/themes/moon.png'/>
-                    <ThemeOption theme="light" src="/public/themes/sun.png"/>
+                    <ThemeOption theme="dark" src='./public/themes/moon.png'/>
+                    <ThemeOption theme="light" src="./public/themes/sun.png"/>
                 </div>
                 
                 <button className='confirm-button' onClick={() => {changeConfirmed(false); setFormReady(true) }}> Confirm </button>
